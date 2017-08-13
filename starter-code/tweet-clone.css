@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(244, 248, 249);
+}
+
+time {
+  color: rgb(101, 116, 127);
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+.twttr {
+  font-family: helvetica;
+  width: 50%;
+  background: rgb(255, 255, 255);
+  border: rgb(225, 232, 237);
+  border-style: solid;
+  border-radius: 8px;
+  padding: 20px;
+  margin: auto;
+}
+
+/*That gonna contain pic-profile, name, user-acc & follow*/
+#header {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+
+/* header content*/
+
+.account, .follow {
+  width: 50%;
+  float: left;
+}
+
+.prof-pic {
+  width: 72px;
+  height: 72px;
+  float: left;
+  padding-right: 10px;
+}
+
+.account-info {
+  width: 250px;
+  height: 40px;
+}
+
+#account-logo, #name, #validated {
+  float: left;
+  margin-left: 5px;
+  vertical-align: baseline;
+}
+
+#name {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+#user {
+  font-size: 18px;
+  color: rgb(104, 109, 129);
+}
+
+/*follow button*/
+.follow-button {
+  float: right;
+  width: 150px;
+  height: 50px;
+  border: rgb(85, 172, 238);
+  border-style: solid;
+  border-radius: 8px;
+  color: rgb(85, 172, 238);
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.twitter-logo {
+  width: 32px;
+  height: 29px;
+  float: left;
+  margin: 10px;
+}
+
+/* twitter  text*/
+.text {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+/*twitter footer*/
+.footer {
+  width: 100%;
+  height: 35px;
+  color: rgb(105, 120, 130);
+  font-size: 20px;
+}
+
+#reply, #retwt, #favor {
+  float: left;
+  margin-right: 10px;
+}
+
+#reply, #retweet, #favorite {
+  margin-right: 25px;
+  float: left;
+}
